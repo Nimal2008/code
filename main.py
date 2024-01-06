@@ -1,16 +1,16 @@
-print('hi Nimal')
-print(4%2)
-a = int(input('Enter mark : '))
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-if a >= 90:
-    print('Your grade is A')
-elif  90 <a & a >80:
-    print('Your mark is B')
-elif 80>=a & a>=60:
-    print('Your mark is C')
-else : print('Grade is D')
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
 
-
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
